@@ -10,10 +10,10 @@ You can use the Python notebooks for the practical sessions. You can run the not
 
 ### Linear Inverse Problems
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TristanvanLeeuwen/UUSummerschool24_Xray/blob/main/assignments/assignment1.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) Assignment 1](https://colab.research.google.com/github/TristanvanLeeuwen/UUSummerschool24_Xray/blob/main/assignments/assignment1.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TristanvanLeeuwen/UUSummerschool24_Xray/blob/main/assignments/assignment2a.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)  Assignment 2a](https://colab.research.google.com/github/TristanvanLeeuwen/UUSummerschool24_Xray/blob/main/assignments/assignment2a.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TristanvanLeeuwen/UUSummerschool24_Xray/blob/main/assignments/assignment2b.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)  Assignment 2b](https://colab.research.google.com/github/TristanvanLeeuwen/UUSummerschool24_Xray/blob/main/assignments/assignment2b.ipynb)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TristanvanLeeuwen/UUSummerschool24_Xray/blob/main/assignments/assignment3.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)  Assignment 3](https://colab.research.google.com/github/TristanvanLeeuwen/UUSummerschool24_Xray/blob/main/assignments/assignment3.ipynb)
