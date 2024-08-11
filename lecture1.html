@@ -14589,14 +14589,14 @@ $$x(s,t) = t \sin \theta + s \cos \theta, \quad y(s,t) = t\cos\theta - s \sin \t
 </ul>
 
 </div>
-</div>
+</div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="The-Fourier-slice-theorem">The Fourier slice theorem<a class="anchor-link" href="#The-Fourier-slice-theorem">&#182;</a></h2><p>The Fourier-Slice Theorem relates the 2D-Fourier transform of $u$ to the 1D-Fourier transform of $f$:</p>
 $$\widehat{f}(\theta, \sigma) = \widehat{u}(\sigma \mathbf{n}_\theta),$$<p>with</p>
 $$\widehat{f}(\theta,\sigma) = \int_{\mathbb{R}} f(\theta,s) e^{-2\pi\imath \sigma s}\mathrm{d}s,$$$$\widehat{u}(\mathbf{k}) = \int_{\mathbb{R}^2} u(\mathbf{x}) e^{-2\pi\imath \mathbf{k}\cdot \mathbf{x}}\mathrm{d}\mathbf{x},$$$$\mathbf{n}_\theta = (\cos\theta,-\sin\theta).$$
 </div>
-</div>
+</div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Fourier-reconstruction">Fourier reconstruction<a class="anchor-link" href="#Fourier-reconstruction">&#182;</a></h2><p>The FST gives rise to an image reconstruction scheme:</p>
@@ -14607,14 +14607,14 @@ $$\widehat{f}(\theta,\sigma) = \int_{\mathbb{R}} f(\theta,s) e^{-2\pi\imath \sig
 </ol>
 
 </div>
-</div>
+</div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>We can visualise this as follows</p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Radon_transform_via_Fourier_transform.png/2000px-Radon_transform_via_Fourier_transform.png" alt=""></p>
 
 </div>
-</div>
+</div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Filtered-back-projection">Filtered back projection<a class="anchor-link" href="#Filtered-back-projection">&#182;</a></h2><p>The second derivatices in $\mathbf{x}$ and $s$ intertwine with the Radon transform as follows</p>
@@ -14623,14 +14623,14 @@ $$R^* \partial_s^2 f = \Delta_\mathbf{x} R^*f,$$<p>with</p>
 $$R^*f(\mathbf{x}) = \frac{1}{2\pi}\int_{0}^{2\pi} f(\mathbf{x}\cdot \mathbf{n}_\theta,\theta) \mathrm{d}\theta,$$<p>denotes the adjoint of the Radon transform.</p>
 
 </div>
-</div>
+</div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>This suggests we can invert the Radon transform via backprojection followed by 2D-filtering</p>
 $$u = \textstyle{\frac{1}{2}} \cdot (-\Delta_{\mathbf{x}})^{1/2} R^*f,$$<p>or 1D-filtering followed by backprojection</p>
 $$u = \textstyle{\frac{1}{2}} \cdot R^* (-\partial_s^2)^{1/2} f$$
 </div>
-</div>
+</div></section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <iframe width="560" height="315" src="./SL_FBPrecon.mp4" frameborder="0" allowfullscreen></iframe><p>(Courtesy of <a href="http://www.siltanen-research.net/">Samuli Siltanen</a>)</p>
